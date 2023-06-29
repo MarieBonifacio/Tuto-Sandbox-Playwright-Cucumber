@@ -50,3 +50,23 @@ Exécutez vos tests avec le mode UI pour une meilleure expérience développeur
 ````shell
 npx playwright test --ui
 ````
+
+## Rapport Allure
+[Références Github](https://github.com/allure-framework/allure-js/blob/master/packages/allure-playwright/README.md)
+#### Installation:
+````shell
+npm i -D @playwright/test allure-playwright
+````
+#### Utilisation:
+````shell
+npx playwright test --reporter=line,allure-playwright
+````
+#### Generation d'un rapport Allure :
+````shell
+allure generate my-allure-results -o allure-report --clean
+````
+
+#### Ouvrir un rapport Allure :
+````shell
+allure open allure-report
+````

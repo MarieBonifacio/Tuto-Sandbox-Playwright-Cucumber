@@ -5,7 +5,7 @@ import {test} from "@playwright/test";
 test.beforeEach(async ({page}) => {
     await goToRaja(page);
 });
-    test.only("l'utilisateur s'inscrit", async ({page})=> {
+    test("l'utilisateur s'inscrit", async ({page})=> {
         await btnSeConnecter(page);
         await btnSeConnecter(page);
         await inscriptionForm(page);
