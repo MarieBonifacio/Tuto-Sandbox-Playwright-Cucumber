@@ -1,16 +1,22 @@
 # TutoPLaywrightCucumber
 Tutoriel de l'outil d'automatisation de test Playwright en incluant Cucumber
 
-Installation de playwright
+## Installation de Playwright
 ```shell
 npm init playwright@latest
-
 ```
-Installation de cucumber
+Exécutez la commande d'installation et sélectionnez les éléments suivants pour commencer :
+
+* Choisissez entre TypeScript ou JavaScript (la valeur par défaut est TypeScript)
+* Nommez votre dossier Tests (la valeur par défaut est tests ou e2e si vous avez déjà un dossier tests dans votre projet)
+* Ajoutez un workflow GitHub Actions pour exécuter facilement des tests sur CI
+* Installer les navigateurs Playwright (la valeur par défaut est true)
+
+
+## Installation de Cucumber
 
 ```shell
 npm i @cucumber/cucumber -D 
-
 ```
 
 ```shell
@@ -32,4 +38,13 @@ Création d'un fichier de config cucumber, ```cucumber.json```:
 ````json
 "publishQuiet": true
 ````
-3. 
+
+## Exécution d'un example de test
+
+````shell
+npx playwright test
+````
+Exécutez vos tests avec le mode UI pour une meilleure expérience développeur 
+````shell
+npx playwright test --ui
+````
