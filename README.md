@@ -1,4 +1,6 @@
-# TutoPLaywrightCucumber
+# Tutoriel Playwright-Cucumber
+![](https://playwright.dev/img/playwright-logo.svg)**&**![](https://cucumber.io/cucumber/media/images/logos/icons/cucumber-open-icon.svg)
+
 Tutoriel de l'outil d'automatisation de test Playwright en incluant Cucumber
 
 ## Installation de Playwright
