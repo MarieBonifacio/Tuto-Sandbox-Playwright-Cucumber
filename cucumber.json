@@ -4,19 +4,21 @@
       "snippetInterface": "async-await"
     },
     "paths": [
-      "tests/features/"
+      "e2e/features/"
     ],
     "publishQuiet": true,
     "dryRun": true,
     "require": [
-      "tests/steps/*.ts"
+      "e2e/stepDefinitions/*.js",
+      "pages/*.js"
     ],
     "requireModule": [
       "ts-node/register"
     ],
     "format": [
       "progress-bar",
-      "html:cucumber-report.html"
+      "html:cucumber-report.html",
+      "reporter.js"
     ]
   }
 }

@@ -1,19 +1,26 @@
 {
-  "name": "tutoplaywrightcucumber",
+  "name": "poc-playwright-cucumber",
   "version": "1.0.0",
-  "description": "Tutoriel de l'outil d'automatisation de test Playwright en incluant Cucumber",
+  "description": "Poc Playwright",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js test"
+    "test:e2e": "cucumber-js --require cucumber.conf.js --require e2e/stepDefinitions --format ./reporter.js",
+    "allure:generate": "npx allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "all": "npm run test:e2e && npm run allure:generate && npm run allure:open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cucumber/cucumber": "^9.2.0",
-    "@playwright/test": "^1.35.1",
+    "@cucumber/cucumber": "^7.3.2",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@playwright/test": "^1.46.1",
+    "@serenity-js/core": "^3.26.0",
+    "@serenity-js/cucumber": "^3.26.0",
     "allure-commandline": "^2.22.4",
-    "allure-playwright": "^2.4.0",
+    "allure-cucumberjs": "2.9",
+    "playwright": "^1.46.1",
     "ts-node": "^10.9.1"
   }
 }

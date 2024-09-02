@@ -1,0 +1,489 @@
+[
+    {
+        "id": "29622524-db98-49e7-931b-00e16aecadca",
+        "payment_method": "TRANSFER",
+        "human_id": "FR23100303946",
+        "subscriber": {
+          "id": "dc2316d1-146c-4811-87f5-40b644d40411",
+          "type": "CUSTOMER"
+        },
+        "supplier": {
+          "id": "0070069400694",
+          "type": "STORE"
+        },
+        "items": [
+          "645ed565-09b2-4506-86b8-b26bf34577dd"
+        ],
+        "business_service": "BUYBACK",
+        "locale": "fr-fr",
+        "status": "CLOSED",
+        "documents": [
+          {
+            "id": "c921b327-9796-4347-9d02-de8a72ebd57a",
+            "type": "CONTRACT",
+            "is_validated": true,
+            "created_at": "2023-10-03T09:45:36.913285",
+            "updated_at": "2023-10-03T09:45:42.305911"
+          }
+        ],
+        "created_at": "2023-10-03T09:45:32+00:00",
+        "updated_at": "2023-10-04T04:30:12+00:00",
+        "created_by": "BCASIE30",
+        "updated_by": "ocpa",
+        "total_buyback_price": {
+          "amount_in_cents": 900,
+          "currency": "EUR"
+        },
+        "retributions": [
+          {
+            "id": "ca40c340-8ab0-49e4-836e-a5b620ef5e06",
+            "payment_method": "bank_transfer",
+            "type": null,
+            "external_id": "25e9640d-333e-4b50-8635-777537fd9eb9",
+            "provider": "SECONDLIFE_TRANSACTION",
+            "amount": {
+              "amount_in_cents": 900,
+              "currency": "EUR"
+            },
+            "status": "TODO"
+          }
+        ]
+      },
+    {
+        "id": "8721c71d-8b8c-4981-ac39-1204b559b134",
+        "payment_method": "TRANSFER",
+        "human_id": "ES24072407449",
+        "subscriber": {
+            "id": "dc2316d1-146c-4811-87f5-40b644d40411",
+            "type": "CUSTOMER"
+        },
+        "supplier": {
+            "id": "0070043900439",
+            "type": "STORE"
+        },
+        "items": [
+            "df832513-e379-4396-90d9-e3b93fa7669c",
+            "82452c82-a1f6-4621-8573-15ea0392d622",
+            "269ee456-66d6-4e00-bec4-04d5a6af79db"
+        ],
+        "business_service": "BUYBACK",
+        "locale": "es-es",
+        "status": "CLOSED",
+        "documents": [
+            {
+                "id": "6a5170b5-7bac-49ef-a18f-77c8f13f7638",
+                "type": "CONTRACT",
+                "is_validated": true,
+                "created_at": "2024-07-24T09:38:11.562027",
+                "updated_at": "2024-07-24T09:38:15.312025"
+            }
+        ],
+        "created_at": "2024-07-24T09:38:04+00:00",
+        "updated_at": "2024-07-24T09:42:21+00:00",
+        "total_buyback_price": {
+            "amount_in_cents": 34500,
+            "currency": "EUR"
+        },
+        "retributions": [
+            {
+                "id": "d4da775e-4aa0-4f69-a8a6-02bce5baf542",
+                "payment_method": "bank_transfer",
+                "type": "TRANSFER",
+                "external_id": "555768c0-0a02-4772-8ec3-fe71c0bd457c",
+                "provider": "ONEPAYV2",
+                "amount": {
+                    "amount_in_cents": 34500,
+                    "currency": "EUR"
+                },
+                "status": "DONE"
+            }
+        ]
+    },
+    {
+        "id": "75a00495-d9a7-4a17-8856-fdcd296a3d2a",
+        "payment_method": "TRANSFER",
+        "human_id": "ES24072407448",
+        "subscriber": {
+            "id": "dc2316d1-146c-4811-87f5-40b644d40411",
+            "type": "CUSTOMER"
+        },
+        "supplier": {
+            "id": "0070043900439",
+            "type": "STORE"
+        },
+        "items": [
+            "af7f281d-280a-401b-a374-a561821f2004",
+            "27a18e92-a601-49b1-9183-f4410d4f9cc7",
+            "5601faaf-c9f6-4ae5-b801-77f6e4642ed6"
+        ],
+        "business_service": "BUYBACK",
+        "locale": "es-es",
+        "status": "VALIDATED",
+        "documents": [
+            {
+                "id": "11202a34-3a45-4d94-b2a6-73bd4ec9228f",
+                "type": "CONTRACT",
+                "is_validated": true,
+                "created_at": "2024-07-24T09:26:25.886421",
+                "updated_at": "2024-07-24T09:26:30.353052"
+            }
+        ],
+        "created_at": "2024-07-24T09:26:21+00:00",
+        "updated_at": "2024-07-24T09:26:30+00:00",
+        "total_buyback_price": {
+            "amount_in_cents": 27000,
+            "currency": "EUR"
+        },
+        "retributions": [
+            {
+                "id": "28847489-de93-42a2-827a-37316ba3f11a",
+                "payment_method": "bank_transfer",
+                "type": "TRANSFER",
+                "external_id": "f5cab1a6-4ade-4d6f-97f5-b934e6926831",
+                "provider": "ONEPAYV2",
+                "amount": {
+                    "amount_in_cents": 27000,
+                    "currency": "EUR"
+                },
+                "status": "TODO"
+            }
+        ]
+    },
+    {
+        "id": "69eaccd5-a6c7-4d4b-b7d1-6f99c883029c",
+        "payment_method": "VOUCHER",
+        "human_id": "FR24072407446",
+        "subscriber": {
+            "id": "dc2316d1-146c-4811-87f5-40b644d40411",
+            "type": "CUSTOMER"
+        },
+        "supplier": {
+            "id": "0070000100001",
+            "type": "STORE"
+        },
+        "items": [
+            "7c1ca033-c80f-45dd-98f8-cfff2f026e1b",
+            "a5bef303-e8c4-46a1-8fae-ee3634b5c300"
+        ],
+        "business_service": "BUYBACK",
+        "locale": "fr-fr",
+        "status": "CLOSED",
+        "documents": [
+            {
+                "id": "7f03aaf3-87e4-4ab5-a416-ef92d1dfa0f4",
+                "type": "CONTRACT",
+                "is_validated": true,
+                "created_at": "2024-07-24T09:17:58.002712",
+                "updated_at": "2024-07-24T09:18:02.640751"
+            }
+        ],
+        "created_at": "2024-07-24T09:17:53+00:00",
+        "updated_at": "2024-07-24T09:19:06+00:00",
+        "total_buyback_price": {
+            "amount_in_cents": 3600,
+            "currency": "EUR"
+        },
+        "retributions": [
+            {
+                "id": "e7486e22-2810-4614-a522-f95cf170ff64",
+                "payment_method": "voucher",
+                "type": null,
+                "external_id": "b9ee4cc2-705f-47d1-8793-a7aa7353b003",
+                "provider": "sportycoins",
+                "amount": {
+                    "amount_in_cents": 3600,
+                    "currency": "EUR"
+                },
+                "status": "DIGITAL_DELIVERING"
+            }
+        ]
+    },
+    {
+        "id": "ac4ad35a-9292-47f2-831b-42503bf4b412",
+        "payment_method": "TRANSFER",
+        "human_id": "ES24061306935",
+        "subscriber": {
+            "id": "dc2316d1-146c-4811-87f5-40b644d40411",
+            "type": "CUSTOMER"
+        },
+        "supplier": {
+            "id": "0070191801918",
+            "type": "STORE"
+        },
+        "items": [
+            "02a11e99-14de-406f-a455-9ce6d2a9f6fb"
+        ],
+        "business_service": "BUYBACK",
+        "locale": "es-es",
+        "status": "VALIDATED",
+        "documents": [
+            {
+                "id": "add1d1b0-2d89-432f-a33d-f39728736102",
+                "type": "CONTRACT",
+                "is_validated": true,
+                "created_at": "2024-06-13T12:43:10.17293",
+                "updated_at": "2024-06-13T12:43:26.719553"
+            }
+        ],
+        "created_at": "2024-06-13T12:43:07+00:00",
+        "updated_at": "2024-06-13T12:43:26+00:00",
+        "total_buyback_price": {
+            "amount_in_cents": 900,
+            "currency": "EUR"
+        },
+        "retributions": [
+            {
+                "id": "33b3fde7-9515-4d82-a679-69c0f2304cfa",
+                "payment_method": "bank_transfer",
+                "type": "TRANSFER",
+                "external_id": "92337662-8c80-44da-ab37-78f4eef87d50",
+                "provider": "ONEPAYV2",
+                "amount": {
+                    "amount_in_cents": 900,
+                    "currency": "EUR"
+                },
+                "status": "TODO"
+            }
+        ]
+    },
+    {
+        "id": "a1ad5416-7249-4ed6-92c0-2dc4b923117f",
+        "payment_method": "TRANSFER",
+        "human_id": "ES24061306933",
+        "subscriber": {
+            "id": "dc2316d1-146c-4811-87f5-40b644d40411",
+            "type": "CUSTOMER"
+        },
+        "supplier": {
+            "id": "0070191801918",
+            "type": "STORE"
+        },
+        "items": [
+            "abbd8e03-e39e-4734-be18-86a6dedabc22"
+        ],
+        "business_service": "BUYBACK",
+        "locale": "es-es",
+        "status": "VALIDATED",
+        "documents": [
+            {
+                "id": "3f11f080-e821-401e-b65c-ad7b0cd60263",
+                "type": "CONTRACT",
+                "is_validated": true,
+                "created_at": "2024-06-13T12:43:10.054945",
+                "updated_at": "2024-06-13T12:43:26.573236"
+            }
+        ],
+        "created_at": "2024-06-13T12:43:07+00:00",
+        "updated_at": "2024-06-13T12:43:26+00:00",
+        "total_buyback_price": {
+            "amount_in_cents": 900,
+            "currency": "EUR"
+        },
+        "retributions": [
+            {
+                "id": "2a838cfd-d849-4f19-8c2c-337d1f8ebafc",
+                "payment_method": "bank_transfer",
+                "type": "TRANSFER",
+                "external_id": null,
+                "provider": "ONEPAYV2",
+                "amount": {
+                    "amount_in_cents": 900,
+                    "currency": "EUR"
+                },
+                "status": "TODO"
+            }
+        ]
+    },
+    {
+        "id": "8e3c1469-dd46-4928-8c5a-a25a688962c7",
+        "payment_method": "TRANSFER",
+        "human_id": "ES24061306931",
+        "subscriber": {
+            "id": "dc2316d1-146c-4811-87f5-40b644d40411",
+            "type": "CUSTOMER"
+        },
+        "supplier": {
+            "id": "0070191801918",
+            "type": "STORE"
+        },
+        "items": [
+            "90e1ac7b-86d8-4a68-993f-c4eadede887c"
+        ],
+        "business_service": "BUYBACK",
+        "locale": "es-es",
+        "status": "VALIDATED",
+        "documents": [
+            {
+                "id": "c5d5d9a3-751a-4e0b-818a-13192bdddf38",
+                "type": "CONTRACT",
+                "is_validated": true,
+                "created_at": "2024-06-13T12:43:09.197676",
+                "updated_at": "2024-06-13T12:43:26.206535"
+            }
+        ],
+        "created_at": "2024-06-13T12:43:05+00:00",
+        "updated_at": "2024-06-13T12:43:26+00:00",
+        "total_buyback_price": {
+            "amount_in_cents": 900,
+            "currency": "EUR"
+        },
+        "retributions": [
+            {
+                "id": "dab0c31d-5309-48d6-8095-2e19c75befa3",
+                "payment_method": "bank_transfer",
+                "type": "TRANSFER",
+                "external_id": null,
+                "provider": "ONEPAYV2",
+                "amount": {
+                    "amount_in_cents": 900,
+                    "currency": "EUR"
+                },
+                "status": "TODO"
+            }
+        ]
+    },
+    {
+        "id": "9fc80017-90f1-4f22-bdfd-6086ef9e200e",
+        "payment_method": "TRANSFER",
+        "human_id": "ES24061306932",
+        "subscriber": {
+            "id": "dc2316d1-146c-4811-87f5-40b644d40411",
+            "type": "CUSTOMER"
+        },
+        "supplier": {
+            "id": "0070191801918",
+            "type": "STORE"
+        },
+        "items": [
+            "4a5dec07-1b58-44df-a06d-1cc2a2382fe2"
+        ],
+        "business_service": "BUYBACK",
+        "locale": "es-es",
+        "status": "VALIDATED",
+        "documents": [
+            {
+                "id": "d0801c41-471c-4fbb-a21a-2986e264ef48",
+                "type": "CONTRACT",
+                "is_validated": true,
+                "created_at": "2024-06-13T12:43:09.475128",
+                "updated_at": "2024-06-13T12:43:26.033018"
+            }
+        ],
+        "created_at": "2024-06-13T12:43:06+00:00",
+        "updated_at": "2024-06-13T12:43:26+00:00",
+        "total_buyback_price": {
+            "amount_in_cents": 900,
+            "currency": "EUR"
+        },
+        "retributions": [
+            {
+                "id": "25a1b993-2d52-4bb0-92c3-481384dac0e0",
+                "payment_method": "bank_transfer",
+                "type": "TRANSFER",
+                "external_id": null,
+                "provider": "ONEPAYV2",
+                "amount": {
+                    "amount_in_cents": 900,
+                    "currency": "EUR"
+                },
+                "status": "TODO"
+            }
+        ]
+    },
+    {
+        "id": "2273ffd3-3de9-40ea-9fe1-23cd1c53153c",
+        "payment_method": "TRANSFER",
+        "human_id": "ES24061306928",
+        "subscriber": {
+            "id": "dc2316d1-146c-4811-87f5-40b644d40411",
+            "type": "CUSTOMER"
+        },
+        "supplier": {
+            "id": "0070191801918",
+            "type": "STORE"
+        },
+        "items": [
+            "7f444c78-f607-4cbe-bdb3-968c92ab6606"
+        ],
+        "business_service": "BUYBACK",
+        "locale": "es-es",
+        "status": "VALIDATED",
+        "documents": [
+            {
+                "id": "f4a13658-98ec-4a69-b2a6-ef679dde708f",
+                "type": "CONTRACT",
+                "is_validated": true,
+                "created_at": "2024-06-13T12:43:08.662164",
+                "updated_at": "2024-06-13T12:43:22.724404"
+            }
+        ],
+        "created_at": "2024-06-13T12:43:05+00:00",
+        "updated_at": "2024-06-13T12:43:23+00:00",
+        "total_buyback_price": {
+            "amount_in_cents": 900,
+            "currency": "EUR"
+        },
+        "retributions": [
+            {
+                "id": "20cf8de2-f992-4863-b424-892ef1f3f198",
+                "payment_method": "bank_transfer",
+                "type": "TRANSFER",
+                "external_id": null,
+                "provider": "ONEPAYV2",
+                "amount": {
+                    "amount_in_cents": 900,
+                    "currency": "EUR"
+                },
+                "status": "TODO"
+            }
+        ]
+    },
+    {
+        "id": "364b7024-fae5-44e4-9fae-366753d55fdb",
+        "payment_method": "TRANSFER",
+        "human_id": "ES24061306925",
+        "subscriber": {
+            "id": "dc2316d1-146c-4811-87f5-40b644d40411",
+            "type": "CUSTOMER"
+        },
+        "supplier": {
+            "id": "0070191801918",
+            "type": "STORE"
+        },
+        "items": [
+            "9513f6da-275a-4f28-a3b2-e967ed074962"
+        ],
+        "business_service": "BUYBACK",
+        "locale": "es-es",
+        "status": "VALIDATED",
+        "documents": [
+            {
+                "id": "e05f855a-5065-45bf-a72d-d1582007d2fa",
+                "type": "CONTRACT",
+                "is_validated": true,
+                "created_at": "2024-06-13T12:43:08.498203",
+                "updated_at": "2024-06-13T12:43:20.829223"
+            }
+        ],
+        "created_at": "2024-06-13T12:43:05+00:00",
+        "updated_at": "2024-06-13T12:43:21+00:00",
+        "total_buyback_price": {
+            "amount_in_cents": 900,
+            "currency": "EUR"
+        },
+        "retributions": [
+            {
+                "id": "ee270007-21f1-44be-91cd-4d9644f07a18",
+                "payment_method": "bank_transfer",
+                "type": "TRANSFER",
+                "external_id": "897c772a-93f4-468e-a0a6-f3fe11282bf3",
+                "provider": "ONEPAYV2",
+                "amount": {
+                    "amount_in_cents": 900,
+                    "currency": "EUR"
+                },
+                "status": "TODO"
+            }
+        ]
+    }
+]

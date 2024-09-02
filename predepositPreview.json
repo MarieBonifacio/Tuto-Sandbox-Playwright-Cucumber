@@ -1,0 +1,102 @@
+[
+	{
+		"id": "3edd4e11-4025-45f1-b477-88d5cd913667",
+		"sports": [
+			{
+				"id": 627,
+				"label": "Fietsen voor kinderen"
+			}
+		],
+		"nature": {
+			"id": 25548,
+			"label": "Kinderfiets"
+		},
+		"brand": {
+			"id": 113,
+			"label": "BTWIN"
+		},
+		"buying_year": 2023,
+		"buying_price": {
+			"amount_in_cents": 40000,
+			"currency": "EUR"
+		},
+		"status": "NEW",
+		"colors": [],
+		"site_id": "0070020700207"
+	},
+	{
+		"id": "11c3599a-27c3-452a-8bdf-bd4fbf978491",
+		"sports": [
+			{
+				"id": 194,
+				"label": "Wielersport"
+			}
+		],
+		"nature": {
+			"id": 25549,
+			"label": "Racefiets"
+		},
+		"brand": {
+			"id": 113,
+			"label": "BTWIN"
+		},
+		"buying_year": 2022,
+		"buying_price": {
+			"amount_in_cents": 40000,
+			"currency": "EUR"
+		},
+		"status": "NEW",
+		"colors": [],
+		"site_id": "0070210502105"
+	},
+	{
+		"id": "e04d6348-397f-4236-89a4-b7b33129499b",
+		"sports": [
+			{
+				"id": 198,
+				"label": "urban cycling"
+			}
+		],
+		"nature": {
+			"id": 25550,
+			"label": "Stadsfiets"
+		},
+		"brand": {
+			"id": 113,
+			"label": "BTWIN"
+		},
+		"buying_year": 2020,
+		"buying_price": {
+			"amount_in_cents": 40000,
+			"currency": "EUR"
+		},
+		"status": "NEW",
+		"colors": [],
+		"site_id": "0070210802108"
+	},
+	{
+		"id": "52f54371-692f-4294-a3c1-41fc4ed6f05e",
+		"sports": [
+			{
+				"id": 194,
+				"label": "Wielersport"
+			}
+		],
+		"nature": {
+			"id": 25549,
+			"label": "Racefiets"
+		},
+		"brand": {
+			"id": 113,
+			"label": "BTWIN"
+		},
+		"buying_year": 2021,
+		"buying_price": {
+			"amount_in_cents": 40000,
+			"currency": "EUR"
+		},
+		"status": "NEW",
+		"colors": [],
+		"site_id": "0070110301103"
+	}
+]

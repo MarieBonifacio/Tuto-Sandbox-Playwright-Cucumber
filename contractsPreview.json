@@ -1,0 +1,92 @@
+[
+	{
+		"id": "56aa7fd3-1b42-41af-9ed4-9d2e25cfadc5",
+		"payment_method": "voucher",
+		"human_id": "FR23071900623",
+		"subscriber": {
+			"id": "dc2316d1-146c-4811-87f5-40b644d40411",
+			"type": "customer"
+		},
+		"supplier": {
+			"id": "0070011800118",
+			"type": "store"
+		},
+		"items": ["1958df2f-90f7-4313-b182-f8ab78a4b567"],
+		"business_service": "buyback",
+		"locale": "fr-fr",
+		"status": "VALIDATED",
+		"transaction": "379c2803-b010-4c98-97db-e2559a293e4c",
+		"documents": [
+			{
+				"id": "709f67ba-6b41-486d-b1ff-d218f418e1f1",
+				"type": "CONTRACT",
+				"is_validated": true,
+				"created_at": "2023-07-19T09:51:53.059974",
+				"updated_at": "2023-07-19T09:51:57.300216"
+			}
+		],
+		"created_at": "2023-07-19T09:51:25+00:00",
+		"updated_at": "2023-07-19T09:52:02+00:00",
+		"total_buyback_price": {
+			"amount_in_cents": 2510,
+			"currency": "EUR"
+		},
+		"vouchers": [
+			{
+				"sportycoins_id": "59fcf143-c142-4a19-a5e7-77c49584ebba",
+				"created_at": "2023-07-19T09:51:57.686907",
+				"amount": {
+					"amount_in_cents": 2510,
+					"currency": "EUR"
+				}
+			}
+		],
+		"created_by": "Z14SREGN",
+		"updated_by": "ocpa"
+	},
+	{
+		"id": "bb8c62b3-b0ef-40bc-8798-6432127b8f20",
+		"payment_method": "voucher",
+		"human_id": "FR23071900621",
+		"subscriber": {
+			"id": "dc2316d1-146c-4811-87f5-40b644d40411",
+			"type": "customer"
+		},
+		"supplier": {
+			"id": "0070011800118",
+			"type": "store"
+		},
+		"items": ["7e9b8b76-c4c9-46a9-973e-8ce597d5cfea"],
+		"business_service": "buyback",
+		"locale": "fr-fr",
+		"status": "VALIDATED",
+		"transaction": "b82f69b7-c65a-45d9-913f-39b2ffeee18a",
+		"documents": [
+			{
+				"id": "f3a0a404-81ec-466b-adc5-4940b27ea25f",
+				"type": "CONTRACT",
+				"is_validated": true,
+				"created_at": "2023-07-19T09:50:20.075271",
+				"updated_at": "2023-07-19T09:50:24.558753"
+			}
+		],
+		"created_at": "2023-07-19T09:49:48+00:00",
+		"updated_at": "2023-07-19T09:52:02+00:00",
+		"total_buyback_price": {
+			"amount_in_cents": 2510,
+			"currency": "EUR"
+		},
+		"vouchers": [
+			{
+				"sportycoins_id": "e805b16b-3116-45cd-a89a-f159a018c2c0",
+				"created_at": "2023-07-19T09:50:24.933554",
+				"amount": {
+					"amount_in_cents": 2510,
+					"currency": "EUR"
+				}
+			}
+		],
+		"created_by": "Z14SREGN",
+		"updated_by": "ocpa"
+	}
+]
